@@ -29,7 +29,7 @@ export const Lujirua = () => {
                 
                 <div class="col-9 col-sm-8  col-md-10 col-lg-8  opaci my-3">
                     <div class="card">
-                       <img src={url} alt="" width="100%" />
+                       <img src='../../gif_lujuria/1.gif' alt="" width="100%" />
                         <div class="card-body">
                             <blockquote className="blockquote text-righ" >
                             <p className="mb-1" >{frase1}</p>
