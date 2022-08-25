@@ -3,6 +3,7 @@ import { useCounter } from "../hooks/useCounter"
 import { useFetch } from "../hooks/useFetch"
 import { dataLujuria } from "./dataLujuria"
 
+
 export const Lujirua = () => {
 
     const {counter, increment , reset} = useCounter(0)
@@ -27,10 +28,10 @@ export const Lujirua = () => {
 
             <div className="row my-2 d-flex justify-content-center ">
                 
-                <div class="col-9 col-sm-8  col-md-10 col-lg-8  opaci my-3">
-                    <div class="card">
-                       <img src='../../gif_lujuria/1.gif' alt="" width="100%" />
-                        <div class="card-body">
+                <div className="col-9 col-sm-8  col-md-10 col-lg-8  opaci my-3">
+                    <div className="card">
+                       <img src={url} alt="" width="100%" />
+                        <div className="card-body">
                             <blockquote className="blockquote text-righ" >
                             <p className="mb-1" >{frase1}</p>
                             <p className="mb-1" >{frase2}</p>
